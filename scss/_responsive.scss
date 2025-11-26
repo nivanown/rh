@@ -1,0 +1,251 @@
+/* 1600 */
+@media (max-width: 1600px) {
+
+[class*=__container] {
+  max-width: 1280px;
+  }
+
+.main-title {
+  br {
+    display: none;
+    }
+  }
+
+.work {
+  &__title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 24px;
+    }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    }
+  }
+
+}
+
+/* 1280 */
+@media (max-width: 1280px) {
+
+[class*=__container] {
+  max-width: 1024px;
+  }
+
+.main {
+  &__in {
+    flex-direction: column;
+    gap: 0 0;
+    }
+  }
+
+.sidebar {
+  position: static;
+  width: 100%;
+  }
+
+}
+
+/* 810 */
+@media (max-width: 810px) {
+
+.main {
+  padding: 15px 0;
+  &__in {
+    gap: 30px 0;
+    }
+  &__sections {
+    padding: 0;
+    gap: 30px 0;
+    }
+  }
+
+.sidebar {
+  padding: 0;
+  }
+
+.user-widget {
+  padding: 30px;
+  }
+
+.section {
+  padding: 30px;
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    }
+  }
+
+.main-title {
+  margin: 0 0 20px;
+  font-size: 36px;
+  line-height: 46px;
+  }
+
+.info-skills-list {
+  li {
+    font-size: 16px;
+    line-height: 24px;
+    }
+  &__icon {
+    top: 6px;
+    }
+  }
+
+.tag {
+  padding: 6px 13px;
+  font-size: 14px;
+  }
+
+.work-experience {
+  &__position {
+    font-size: 20px;
+    line-height: 26px;
+    }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    }
+  }
+
+}
+
+/* 767 */
+@media (max-width: 760px) {
+
+.sticker {
+  margin: 0 0 20px;
+  &__text {
+    font-size: 10px;
+    }
+  }
+
+.main-title {
+  margin: 0 0 15px;
+  font-size: 30px;
+  line-height: 36px;
+  }
+
+.title {
+  margin: 0 0 15px;
+  font-size: 30px;
+  line-height: 36px;
+  }
+
+.work-experience {
+  gap: 20px 0;
+  padding: 0;
+  &:before {
+    display: none;
+    }
+  &__item {
+    flex-direction: column;
+    gap: 20px 0;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    }
+  &__company {
+    padding: 0;
+    width: 100%;
+    }
+  &__description {
+    padding: 0;
+    &:before {
+      display: none;
+      }
+    }
+  }
+
+.works {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 0;
+  }
+
+.contacts {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px 0;
+  }
+
+}
+
+/* 480 */
+@media (max-width: 480px) {
+
+.user-widget {
+  padding: 40px 20px 20px;
+  &__top-panel {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    }
+  }
+
+.info-list {
+  margin: 0 0 20px;
+  line-height: 20px;
+  &__title {
+    font-size: 14px;
+    }
+  &__text {
+    font-size: 14px;
+    }
+  }
+
+.btn {
+  padding: 15px 20px;
+  font-size: 12px;
+  }
+
+.section {
+  padding: 20px;
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    }
+  }
+
+.main-title {
+  font-size: 26px;
+  line-height: 30px;
+  }
+
+.small-title {
+  font-size: 18px;
+  line-height: 24px;
+  }
+
+.title {
+  font-size: 24px;
+  line-height: 28px;
+  }
+
+.info-skills-list {
+  li {
+    font-size: 14px;
+    line-height: 20px;
+    }
+  &__icon {
+    top: 4px;
+    }
+  }
+
+.work-experience {
+  &__company-name {
+    font-size: 16px;
+    line-height: 22px;
+    }
+  &__position {
+    font-size: 18px;
+    line-height: 24px;
+    }
+  }
+
+.work {
+  &__title {
+    font-size: 18px;
+    line-height: 22px;
+    }
+  }
+
+}
